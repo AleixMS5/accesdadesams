@@ -1,0 +1,87 @@
+<games>
+    <game id="1">
+        <name>Halo 2: Anniversary</name>
+        <dev>Bungie Studios</dev>
+        <year>2020</year>
+        <systems>Windows, Windows Apps</systems>
+        <genre>Action</genre>
+        <description>Halo 2: Anniversary is a remastered version of the 2004 game Halo 2, but based on the 2014 version
+            included in the Xbox One exclusive compilation Halo: The Master Chief Collection. For Windows and Windows
+            Apps this release is available both standalone and through the 2019 Halo: The Master Chief Collection, while
+            for Xbox One it is only available through the latter and not standalone.
+        </description>
+        <ImageURL>https://www.mobygames.com/images/covers/l/657615-halo-2-anniversary-windows-apps-front-cover.jpg
+        </ImageURL>
+    </game>
+    <game id="2">
+        <name>Minecraft</name>
+        <dev>Mojang Specifications</dev>
+        <year>2010</year>
+        <systems>Browser, Linux, Macintosh, Windows</systems>
+        <genre>Action</genre>
+        <description>Minecraft is a game which mixes elements of sandbox, survival horror and construction game. It is
+            an evolved version of Minecraft Classic.
+        </description>
+        <ImageURL>https://www.mobygames.com/images/covers/l/200518-minecraft-browser-front-cover.png</ImageURL>
+    </game>
+    <game id="3">
+        <name>The Secret of Monkey Island</name>
+        <dev>Lucasfilm Games LLC</dev>
+        <year>1990</year>
+        <systems>Amiga, Atari ST, DOS, FM Towns, Macintosh, SEGA CD</systems>
+        <genre>Adventure</genre>
+        <description>Deep in the Caribbean lies Melee Island, ruled by the governor Elaine Marley. The cruel pirate
+            LeChuck is deeply in love with her - so deeply that he refuses to accept his own death. As a ghost, he
+            dwells with his undead crew somewhere near the mysterious Monkey Island. Meanwhile, a young fellow named
+            Guybrush Threepwood is determined to become a real pirate. At the Scumm Bar, he meets three pirates who tell
+            him he has to complete three difficult tasks in order to be worthy of this title. But as Guybrush is trying
+            to complete these tasks, he encounters the lovely governor, and this meeting changes his life forever.
+            Risking to incur the wrath of LeChuck, Guybrush has to prove his wit is as sharp as his sword, and figure
+            out a way to foil the ghost pirate's plans.
+        </description>
+        <ImageURL>https://www.mobygames.com/images/covers/l/43341-the-secret-of-monkey-island-dos-front-cover.jpg
+        </ImageURL>
+    </game>
+    <game id="4">
+        <name>The Legend of Zelda: Link's Awakening (Limited Edition)</name>
+        <dev>Nintendo of Europe GmbH</dev>
+        <year>2019</year>
+        <systems>Nintendo Switch</systems>
+        <genre>adventure</genre>
+        <description>The European Limited Edition of the 2019 Switch game The Legend of Zelda: Link's Awakening comes in
+            a collector's edition cardboard box (with obi wrap-around) and includes:
+        </description>
+        <ImageURL>
+            https://www.mobygames.com/images/covers/l/592512-the-legend-of-zelda-link-s-awakening-limited-edition-nintendo-switch-front-cover.jpg
+        </ImageURL>
+    </game>
+    <game id="5">
+        <name>Castlevania (Nintendo 64)</name>
+        <dev>Konami Computer Entertainment Kobe, Inc.</dev>
+        <year>1999</year>
+        <systems>Nintendo 64</systems>
+        <genre>Action</genre>
+        <description>Konami's long-running series of Castlevania games makes its debut on the N64. The traditional 2D
+            graphics have been left behind; this is the first Castlevania game in 3D. However, the goal of the game
+            remains the same: kick some vampire butt as you battle the evil Count Dracula and his minions in this
+            platformer.
+        </description>
+        <ImageURL>https://www.mobygames.com/images/covers/l/42701-castlevania-nintendo-64-front-cover.jpg</ImageURL>
+    </game>
+    <game id="6">
+        <name>Undertale</name>
+        <dev>toby fox</dev>
+        <year>2015</year>
+        <systems>Linux, Macintosh, Nintendo Switch, PlayStation 4, PlayStation Now, PS Vita, Windows, Windows Apps, Xbox
+            One, Xbox Series, Xbox Cloud Gaming
+        </systems>
+        <genre>Role-playing (RPG)</genre>
+        <description>Years after a devastating war between humans and monsters, a child has fallen through a hole and
+            into the monsters' underground world. Under the care of a kindly monster woman named Toriel, they learn the
+            basics of the underground world, including that they may be attacked by other monsters who are less
+            friendly. After the child leave's Toriel's care, it's up to them how they proceed through the underground,
+            including whether they kill the monsters in their way or try to find peaceful resolutions to conflict.
+        </description>
+        <ImageURL>https://www.mobygames.com/images/covers/l/419964-undertale-playstation-4-front-cover.png</ImageURL>
+    </game>
+</games>
