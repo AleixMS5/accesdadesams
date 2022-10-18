@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="pepe.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<header>
+
+    <H1>VIDEOJOGOS</H1>
+    <hr/>
+
+</header>
+<body>
+{% for game in jocs %}
+<div class="imag">
+    <img src= "{{ game.get('imageURL') }}" >
+</div>
+<div>
+    <h2>{{ game.get('name') }}</h2>
+    <hr>
+    <h3>dev</h3>
+    <p>{{ game.get('dev') }}</p>
+    <h3>year</h3>
+    <p>{{ game.get('year') }}</p>
+</div>
+<div>
+    <h3>systems</h3>
+    <p>{{ game.get('systems') }}</p>
+
+    <h3>genre</h3>
+    <p>{{ game.get('genre') }}</p>
+
+</div>
+<div class="descript">
+    <hr>
+    <h3>description</h3>
+    <p>{{ game.get('description') }}</p>
+    <hr>
+</div>
+{% endfor %}
+</body>
+<footer>
+<p>Aleix Montero Sabaté</p>
+</footer>
+</html>

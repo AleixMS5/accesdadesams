@@ -1,0 +1,50 @@
+
+img{
+  width: 50%;
+
+  margin:0px;
+  margin-left:110px;
+  padding:0;
+text-align:center;
+  float: center;
+}
+div.imag{
+
+padding: 13%;
+  border: 1px solid #ccc;
+  float: left;
+  width: 25%;
+  background-color :#BBBBFF;
+  border-right :solid;
+  border-right-color: black;
+
+}
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  margin: 0;
+  margin-bottom: 40px;
+  background-color:#EEEEFF;
+  position: center;
+  text-align: justify;
+}
+div.descript {
+
+  overflow: hidden;
+
+  bottom: 0;
+  width: 100%;
+
+}
+hr{
+margin:0;
+padding:0;
+}
+.descript {
+background-color:#DDDDFF;
+}
+footer{
+ text-align: center;
+}

@@ -10,8 +10,8 @@
             Apps this release is available both standalone and through the 2019 Halo: The Master Chief Collection, while
             for Xbox One it is only available through the latter and not standalone.
         </description>
-        <ImageURL>https://www.mobygames.com/images/covers/l/657615-halo-2-anniversary-windows-apps-front-cover.jpg
-        </ImageURL>
+        <imageURL>https://www.mobygames.com/images/covers/l/657615-halo-2-anniversary-windows-apps-front-cover.jpg
+        </imageURL>
     </game>
     <game id="2">
         <name>Minecraft</name>
@@ -22,7 +22,7 @@
         <description>Minecraft is a game which mixes elements of sandbox, survival horror and construction game. It is
             an evolved version of Minecraft Classic.
         </description>
-        <ImageURL>https://www.mobygames.com/images/covers/l/200518-minecraft-browser-front-cover.png</ImageURL>
+        <imageURL>https://www.mobygames.com/images/covers/l/200518-minecraft-browser-front-cover.png</imageURL>
     </game>
     <game id="3">
         <name>The Secret of Monkey Island</name>
@@ -39,8 +39,8 @@
             Risking to incur the wrath of LeChuck, Guybrush has to prove his wit is as sharp as his sword, and figure
             out a way to foil the ghost pirate's plans.
         </description>
-        <ImageURL>https://www.mobygames.com/images/covers/l/43341-the-secret-of-monkey-island-dos-front-cover.jpg
-        </ImageURL>
+        <imageURL>https://www.mobygames.com/images/covers/l/43341-the-secret-of-monkey-island-dos-front-cover.jpg
+        </imageURL>
     </game>
     <game id="4">
         <name>The Legend of Zelda: Link's Awakening (Limited Edition)</name>
@@ -51,9 +51,9 @@
         <description>The European Limited Edition of the 2019 Switch game The Legend of Zelda: Link's Awakening comes in
             a collector's edition cardboard box (with obi wrap-around) and includes:
         </description>
-        <ImageURL>
+        <imageURL>
             https://www.mobygames.com/images/covers/l/592512-the-legend-of-zelda-link-s-awakening-limited-edition-nintendo-switch-front-cover.jpg
-        </ImageURL>
+        </imageURL>
     </game>
     <game id="5">
         <name>Castlevania (Nintendo 64)</name>
@@ -66,7 +66,7 @@
             remains the same: kick some vampire butt as you battle the evil Count Dracula and his minions in this
             platformer.
         </description>
-        <ImageURL>https://www.mobygames.com/images/covers/l/42701-castlevania-nintendo-64-front-cover.jpg</ImageURL>
+        <imageURL>https://www.mobygames.com/images/covers/l/42701-castlevania-nintendo-64-front-cover.jpg</imageURL>
     </game>
     <game id="6">
         <name>Undertale</name>
@@ -82,6 +82,64 @@
             friendly. After the child leave's Toriel's care, it's up to them how they proceed through the underground,
             including whether they kill the monsters in their way or try to find peaceful resolutions to conflict.
         </description>
-        <ImageURL>https://www.mobygames.com/images/covers/l/419964-undertale-playstation-4-front-cover.png</ImageURL>
+        <imageURL>https://www.mobygames.com/images/covers/l/419964-undertale-playstation-4-front-cover.png</imageURL>
+    </game>
+    <game id="7">
+        <name>A Plague Tale: Requiem</name>
+        <dev>Asobo Studio S.A.R.L.</dev>
+        <year>Oct 18, 2022</year>
+        <systems>PlayStation 5, Windows, Xbox Series</systems>
+        <genre>Action</genre>
+        <description>After escaping their devastated homeland, Amicia and Hugo travel far south, to new regions and
+            vibrant cities. There, they attempt to start a new life and control Hugo&#8217;s curse.
+        </description>
+        <imageURL>https://www.mobygames.com/images/covers/l/842695-a-plague-tale-requiem-windows-front-cover.jpg
+        </imageURL>
+    </game>
+    <game id="8">
+        <name>Dark Souls</name>
+        <dev>FromSoftware, Inc.</dev>
+        <year>2011</year>
+        <systems>PlayStation 3, Xbox 360</systems>
+        <genre>Role-playing (RPG)</genre>
+        <description>Long ago, before humans existed, the world was ruled by dragons. However, when humans came along,
+            the dragons were all but wiped out thanks to the Four Lords, mighty god-like beings who defeated them in an
+            epic battle. The Age of Fire began, a golden age for humanity, but such prosperity could not last. A curious
+            affliction has started to appear: called the Darksign, those it brands are cursed to become an immortal
+            undead, forever returning from death until they ultimately lose their minds. It is said that one day, a
+            Chosen Undead will appear, and a great change will occur in the world. One of the many undead manages to
+            escape the asylum he was locked in, which is seen as the first sign for the role he will eventually play.
+        </description>
+        <imageURL>https://www.mobygames.com/images/covers/l/240130-dark-souls-xbox-360-front-cover.jpg</imageURL>
+    </game>
+    <game id="9">
+        <name>Dark Souls II</name>
+        <dev>FromSoftware, Inc.</dev>
+        <year>2014</year>
+        <systems>PlayStation 3, Windows, Xbox 360</systems>
+        <genre>Role-playing (RPG)</genre>
+        <description>Once upon a time, the Kingdom of Drangleic was a majestic, thriving land. However, mysterious
+            events led to the exile of King Vendrick, and the land became desolate, with lost souls dwelling in it.
+            Meanwhile, a lone traveler is seen near the village of Majula. He is trying to find a cure for a terrible
+            curse that has fallen upon him, forcing him to lose his humanity and prey upon the souls of the dark beings.
+            An enigmatic woman known as the Emerald Herald tells him that the Four Grand Souls have to be collected in
+            order to bring redemption to the traveler and the entire land of Drangleic.
+        </description>
+        <imageURL>https://www.mobygames.com/images/covers/l/465076-dark-souls-ii-playstation-3-front-cover.jpg
+        </imageURL>
+    </game>
+    <game id="10">
+        <name>Dark Souls III</name>
+        <dev>FromSoftware, Inc.</dev>
+        <year>2016</year>
+        <systems>PlayStation 4, Windows, Xbox One</systems>
+        <genre>Role-playing (RPG)</genre>
+        <description>In the Kingdom of Lothric, the pilgrims go on their journey towards certain death... And then the
+            Fire fades. The Lords of Cinder, fallen heroes who have linked the First Flame in the past, are now missing.
+            And it is up to a lone Unkindled to hunt them down and bring them back to their thrones at Firelink
+            Shrine...
+        </description>
+        <imageURL>https://www.mobygames.com/images/covers/l/427159-dark-souls-iii-playstation-4-front-cover.jpg
+        </imageURL>
     </game>
 </games>
