@@ -1,6 +1,7 @@
 import os
 import xml.etree.ElementTree as ET
 from jinja2 import Environment, FileSystemLoader
+
 environment = Environment(loader=FileSystemLoader("templates/"))
 template = environment.get_template("plantilla.html")
 if False == os.path.exists("pepe.xml"):
@@ -19,7 +20,7 @@ while (True):
 
     alfonso = input()
     if alfonso == "1":
-        #insertem les dades
+        # insertem les dades
         for game in root.findall('game'):
             idfalso = int(game.get("id"))
             if idfalso > conta:
@@ -53,7 +54,7 @@ while (True):
         tree.write("pepe.xml")
         continue
     elif alfonso == "2":
-        #veure tots els jocs
+        # veure tots els jocs
 
         for game in root.findall('game'):
             name = game.find('name').text.strip()
@@ -63,7 +64,7 @@ while (True):
             print(id, name, year, dev)
         continue
     elif alfonso == "3":
-        #veure un joc a partir de la id
+        # veure un joc a partir de la id
         pepe = input()
         for game in root.findall('game'):
             id = game.get('id')
@@ -81,7 +82,7 @@ while (True):
 
         continue
     elif alfonso == "4":
-        #modificar el joc a partir de la id
+        # modificar el joc a partir de la id
         print("l'id del videojoc que vols modificar:")
         pepe = input()
         print("avans era aixi")
@@ -96,7 +97,8 @@ while (True):
             imageURL = game.find('imageURL').text.strip()
 
             if id == pepe:
-                print("id", id, "nom", name, "any", year, "dev", dev, "systems", systems,"genre",genre,"description",description,"imageURL",imageURL )
+                print("id", id, "nom", name, "any", year, "dev", dev, "systems", systems, "genre", genre, "description",
+                      description, "imageURL", imageURL)
 
         for game in root.findall('game'):
             id = game.get('id')
@@ -130,7 +132,7 @@ while (True):
         tree.write("pepe.xml")
         continue
     elif alfonso == "5":
-        #esborrar jocs a partir de la id
+        # esborrar jocs a partir de la id
         print("digues la id del joc a borrar")
         pepe = input()
         for game in root.findall('game'):
@@ -142,9 +144,9 @@ while (True):
         continue
 
     elif alfonso == "6":
-        #sortir
+        # sortir
         break
-arrayJocs=[]
+arrayJocs = []
 for game in root.findall('game'):
     id = game.get('id')
     name = game.find('name').text.strip()
@@ -154,9 +156,10 @@ for game in root.findall('game'):
     genre = game.find('genre').text.strip()
     description = game.find('description').text.strip()
     imageURL = game.find('imageURL').text.strip()
-    arrayJocs.append({'id':id,'name':name,'year':year,'dev':dev,'systems':systems,'genre':genre,'description':description,'imageURL':imageURL})
+    arrayJocs.append({'id': id, 'name': name, 'year': year, 'dev': dev, 'systems': systems, 'genre': genre,
+                      'description': description, 'imageURL': imageURL})
 jocs = {"jocs": arrayJocs}
 textoFinal = template.render(jocs)
-file = open("games.html","w")
+file = open("games.html", "w")
 
 file.write(textoFinal)
