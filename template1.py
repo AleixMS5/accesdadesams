@@ -10,10 +10,10 @@ for game in root.findall('game'):
     systems = game.find('systems').text.strip()
     genre = game.find('genre').text.strip()
     description = game.find('description').text.strip()
-    imageURL = game.find('ImageURL').text.strip()
+    imageURL = game.find('imageURL').text.strip()
 
 enviroment = Environment(loader=FileSystemLoader("templates/"))
-template = enviroment.get_template("html1.html")
+template = enviroment.get_template("plantilla.html")
 info = {"jocs":[
     {"name":name}]}
 contingut = template.render(info)
